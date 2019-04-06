@@ -1,6 +1,6 @@
 # 我是一级标题
-## woshierjibiaoti
-> daasads
+## Delon-Wu
+> 这是引用
 | 水果| 价格 （：元）| 重量（：kg） |
 |:--:|:--:|:--:|
 | 苹果|2.2|2|
@@ -15,12 +15,13 @@ for();
 
 ~~ edas ~~
 
-**adw**
+**这是斜体吗**
+-* 这是斜体吗 *-
 
 
 
 
-[^footnote2]: 这是注释2
+
 ```graphLR
     A[Hard edge] -->|Link text| B(Round edge)
     B --> C{Decision}
@@ -41,4 +42,7 @@ cond(yes)->e
 cond(no)->sub->io
 ```
 zheshishili[^1]
+
 [^1]:这是注释1的注释嘻嘻
+这是注释2[^2]这是注释2
+[^2]:这是注释2的注释哈哈
