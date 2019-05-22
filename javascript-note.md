@@ -1,1 +1,1 @@
-` getElementsClassName `其中的element必须带"s"
+` getElementsByClassName `其中的element必须带"s"
