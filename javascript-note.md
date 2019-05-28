@@ -22,9 +22,10 @@ cars.push("Volvo");
 * /[abc],[0-9],[x|y]/i,g,m 
 * / \d查找数字,\s查找空白字符,\uxxxx查找以十六进制数 xxxx 规定的 Unicode 字符 /i,g,m
 
-> return 建议不要和后面接的代码换行，会被当成空返回
+> return 建议不要和后面接的代码换行，会被当成空返回   
+
 以下保留词已被从 ECMAScript 5/6 标准中删除：
-|:--:|:-:|:-:|:-:|
+|:--:|:--:|:--:|:--:|
 |abstract |	boolean |	byte |	char|
 |double |	final |	float |	goto|
 |int |	long |	native |	short|
