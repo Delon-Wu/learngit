@@ -7,13 +7,13 @@ para.appendChild(node);`必须加文本节点，最后添加文本节点。
 ## const定义变量的例外
 ```javascript
 // 您可以创建常量数组：
-const cars = ["Audi", "BMW", "porsche"];
+const cars = ["Audi", "BMW", "porsche"];\
 
 // 您可以更改元素：
-cars[0] = "Honda";
+cars[0] = "Honda";\
 
 // 您可以添加元素：
-cars.push("Volvo"); 
+cars.push("Volvo"); \
 ```
 ## 正则表达式
 
@@ -21,3 +21,4 @@ cars.push("Volvo");
 * /[abc],[0-9],[x|y]/i,g,m 
 * / \d查找数字,\s查找空白字符,\uxxxx查找以十六进制数 xxxx 规定的 Unicode 字符 /i,g,m
 
+## return 建议不要和后面接的代码换行，会被当成空返回
