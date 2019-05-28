@@ -1,4 +1,4 @@
-##复数的问题
+## 复数的问题
 * ` getElementsByClassName getElementsByClassName()`其中的element必须带"s"
 * `var para=document.createElement("p");   
 var node=document.createTextNode("This is new.");    
@@ -22,4 +22,4 @@ cars.push("Volvo");
 * /[abc],[0-9],[x|y]/i,g,m 
 * / \d查找数字,\s查找空白字符,\uxxxx查找以十六进制数 xxxx 规定的 Unicode 字符 /i,g,m
 
-## return 建议不要和后面接的代码换行，会被当成空返回
+** return 建议不要和后面接的代码换行，会被当成空返回 **
