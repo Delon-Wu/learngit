@@ -44,3 +44,4 @@ function myFunction(x, y) {
 }
 myFunction(5);//没传y进去，所以y=undefined;
 ```
+**不通过** 关键词 **var** 创建的变量总是全局的，即使它们在函数中创建。
