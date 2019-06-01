@@ -30,3 +30,17 @@ abstract |	boolean |	byte |	char
 double |	final |	float |	goto
 int |	long |	native |	short
 synchronized |	throws |	transient |	volatile
+
+## 函数：参数默认
+如果调用参数时省略了参数（少于被声明的数量），则丢失的值被设置为：undefined。
+有时这是可以接受的，但是有时最好给参数指定默认值
+```javascript
+function myFunction(x, y) {
+    if (y === undefined) {
+          y = 0;
+          return 0;
+    } 
+    rentrn x*y;
+}
+myFunction(5);//没传y进去，所以y=undefined;
+```
