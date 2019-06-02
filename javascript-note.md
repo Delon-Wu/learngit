@@ -25,12 +25,12 @@ cars.push("Volvo");
 > return 建议不要和后面接的代码换行，会被当成空返回   
 
 以下保留词已被从 ECMAScript 5/6 标准中删除：
-1|2|3|4
-:-: | :-: | :-: | :-:
-abstract |	boolean |	byte |	char
-double |	final |	float |	goto
-int |	long |	native |	short
-synchronized |	throws |	transient |	volatile
+ 1 | 2 | 3 | 4 
+ :-: | :-: | :-: | :-: 
+ abstract |	boolean |	byte |	char 
+ double |	final |	float |	goto 
+ int |	long |	native |	short 
+ synchronized |	throws |	transient |	volatile 
 
 ## 函数：参数默认
 如果调用参数时省略了参数（少于被声明的数量），则丢失的值被设置为：undefined。
