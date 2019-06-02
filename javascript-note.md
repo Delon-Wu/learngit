@@ -26,7 +26,6 @@ cars.push("Volvo");
 
 以下保留词已被从 ECMAScript 5/6 标准中删除：
 
- 1 | 2 | 3 | 4 
  |:-: | :-: | :-: | :-:| 
  abstract |	boolean |	byte |	char 
  double |	final |	float |	goto 
