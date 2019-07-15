@@ -12,7 +12,7 @@
 int main();
 for();
 ```
-\[baidu](https://www.baidu.com)
+[百度](https://www.baidu.com)
 
 ~~ edas ~~
 
